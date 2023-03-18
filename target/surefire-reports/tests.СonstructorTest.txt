@@ -1,0 +1,34 @@
+-------------------------------------------------------------------------------
+Test set: tests.СonstructorTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 3.282 s <<< FAILURE! - in tests.СonstructorTest
+goToBunsTest(tests.СonstructorTest)  Time elapsed: 0.866 s  <<< ERROR!
+org.openqa.selenium.remote.http.ConnectionFailedException: 
+Unable to establish websocket connection to http://localhost:60399/devtools/browser/f0940e3e-0004-4788-bbdc-5f79f965713d
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: driver.version: SelenideDriver
+selenide.url: https://stellarburgers.nomoreparties.site/
+selenide.baseUrl: http://localhost:8080
+	at tests.СonstructorTest.setUp(СonstructorTest.java:20)
+
+goToFillingsTest(tests.СonstructorTest)  Time elapsed: 1.063 s  <<< ERROR!
+org.openqa.selenium.remote.http.ConnectionFailedException: 
+Unable to establish websocket connection to http://localhost:60413/devtools/browser/4890bbc9-b4e1-4883-bf12-47c61b9e406c
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: driver.version: SelenideDriver
+selenide.url: https://stellarburgers.nomoreparties.site/
+selenide.baseUrl: http://localhost:8080
+	at tests.СonstructorTest.setUp(СonstructorTest.java:20)
+
+goToSaucesTest(tests.СonstructorTest)  Time elapsed: 1.35 s  <<< ERROR!
+org.openqa.selenium.remote.http.ConnectionFailedException: 
+Unable to establish websocket connection to http://localhost:60428/devtools/browser/feb99330-2642-43f3-b7a2-96dc08216277
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: driver.version: SelenideDriver
+selenide.url: https://stellarburgers.nomoreparties.site/
+selenide.baseUrl: http://localhost:8080
+	at tests.СonstructorTest.setUp(СonstructorTest.java:20)
+

@@ -1,0 +1,7 @@
+tests\RegisterTest.class
+tests\Config.class
+tests\LogoutTest.class
+tests\GoToProfilePageTest.class
+tests\СonstructorTest.class
+tests\GoToMainPageFromProfileTest.class
+tests\LoginTest.class

@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: tests.GoToMainPageFromProfileTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 5.231 s <<< FAILURE! - in tests.GoToMainPageFromProfileTest
+goToMainPageThroughLogoTest(tests.GoToMainPageFromProfileTest)  Time elapsed: 4.03 s  <<< ERROR!
+org.openqa.selenium.remote.http.ConnectionFailedException: 
+Unable to establish websocket connection to http://localhost:60261/devtools/browser/68661854-f545-4f1d-80c6-eb56d7eff230
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: driver.version: SelenideDriver
+selenide.url: https://stellarburgers.nomoreparties.site/
+selenide.baseUrl: http://localhost:8080
+	at tests.GoToMainPageFromProfileTest.setUp(GoToMainPageFromProfileTest.java:26)
+
+goToMainPageThroughConstructorButtonTest(tests.GoToMainPageFromProfileTest)  Time elapsed: 0.978 s  <<< ERROR!
+org.openqa.selenium.remote.http.ConnectionFailedException: 
+Unable to establish websocket connection to http://localhost:60276/devtools/browser/6ad25e6f-bd7d-4697-9f16-aea409201fb0
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: driver.version: SelenideDriver
+selenide.url: https://stellarburgers.nomoreparties.site/
+selenide.baseUrl: http://localhost:8080
+	at tests.GoToMainPageFromProfileTest.setUp(GoToMainPageFromProfileTest.java:26)
+
