@@ -1,44 +1,44 @@
 -------------------------------------------------------------------------------
 Test set: tests.LoginTest
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 2.604 s <<< FAILURE! - in tests.LoginTest
-loginFromRegisterPageButton(tests.LoginTest)  Time elapsed: 0.644 s  <<< ERROR!
+Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 3.411 s <<< FAILURE! - in tests.LoginTest
+loginFromRegisterPageButton(tests.LoginTest)  Time elapsed: 0.79 s  <<< ERROR!
 org.openqa.selenium.remote.http.ConnectionFailedException: 
-Unable to establish websocket connection to http://localhost:60302/devtools/browser/ffd9a024-176e-4d80-add5-daacc9dca431
+Unable to establish websocket connection to http://localhost:55534/devtools/browser/bf77621a-932f-422c-a703-24c066262a04
 Build info: version: '4.6.0', revision: '79f1c02ae20'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
 Driver info: driver.version: SelenideDriver
 selenide.url: https://stellarburgers.nomoreparties.site/
 selenide.baseUrl: http://localhost:8080
-	at tests.LoginTest.setUp(LoginTest.java:27)
+	at tests.LoginTest.setUp(LoginTest.java:26)
 
-loginFromResetPasswordPage(tests.LoginTest)  Time elapsed: 0.64 s  <<< ERROR!
+loginFromResetPasswordPage(tests.LoginTest)  Time elapsed: 0.867 s  <<< ERROR!
 org.openqa.selenium.remote.http.ConnectionFailedException: 
-Unable to establish websocket connection to http://localhost:60314/devtools/browser/55fa33dc-fad8-4aa5-9f16-aeefd4801602
+Unable to establish websocket connection to http://localhost:55549/devtools/browser/d90d4563-f67f-4aee-8a61-705f4116d6bc
 Build info: version: '4.6.0', revision: '79f1c02ae20'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
 Driver info: driver.version: SelenideDriver
 selenide.url: https://stellarburgers.nomoreparties.site/
 selenide.baseUrl: http://localhost:8080
-	at tests.LoginTest.setUp(LoginTest.java:27)
+	at tests.LoginTest.setUp(LoginTest.java:26)
 
-loginFromHeaderButton(tests.LoginTest)  Time elapsed: 0.663 s  <<< ERROR!
+loginFromHeaderButton(tests.LoginTest)  Time elapsed: 0.888 s  <<< ERROR!
 org.openqa.selenium.remote.http.ConnectionFailedException: 
-Unable to establish websocket connection to http://localhost:60328/devtools/browser/2be9c13d-91ec-4097-ac34-91f9cc159c5b
+Unable to establish websocket connection to http://localhost:55563/devtools/browser/a30d2e15-dc94-40c4-ba85-b504a4c048b7
 Build info: version: '4.6.0', revision: '79f1c02ae20'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
 Driver info: driver.version: SelenideDriver
 selenide.url: https://stellarburgers.nomoreparties.site/
 selenide.baseUrl: http://localhost:8080
-	at tests.LoginTest.setUp(LoginTest.java:27)
+	at tests.LoginTest.setUp(LoginTest.java:26)
 
-loginFromLoginToAccButton(tests.LoginTest)  Time elapsed: 0.657 s  <<< ERROR!
+loginFromLoginToAccButton(tests.LoginTest)  Time elapsed: 0.864 s  <<< ERROR!
 org.openqa.selenium.remote.http.ConnectionFailedException: 
-Unable to establish websocket connection to http://localhost:60341/devtools/browser/2ec26f59-d17b-4f9a-b069-0d63bc2066e1
+Unable to establish websocket connection to http://localhost:55579/devtools/browser/5ea5502c-6279-4306-a056-199382fec11d
 Build info: version: '4.6.0', revision: '79f1c02ae20'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
 Driver info: driver.version: SelenideDriver
 selenide.url: https://stellarburgers.nomoreparties.site/
 selenide.baseUrl: http://localhost:8080
-	at tests.LoginTest.setUp(LoginTest.java:27)
+	at tests.LoginTest.setUp(LoginTest.java:26)
 

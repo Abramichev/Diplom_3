@@ -1,6 +1,5 @@
-C:\Users\endi7\Documents\Diplom\Diplom_3\src\main\java\yandex\stellarburgers\pageObject\ResetPasswordPageStellarBurgersSelenide.java
-C:\Users\endi7\Documents\Diplom\Diplom_3\src\main\java\yandex\stellarburgers\pageObject\RegisterPageStellarBurgersSelenide.java
-C:\Users\endi7\Documents\Diplom\Diplom_3\src\main\java\yandex\stellarburgers\StringGenerator.java
-C:\Users\endi7\Documents\Diplom\Diplom_3\src\main\java\yandex\stellarburgers\pageObject\MainPageStellarBurgersSelenide.java
-C:\Users\endi7\Documents\Diplom\Diplom_3\src\main\java\yandex\stellarburgers\pageObject\PersonalProfilePageStellarBurgersSelenide.java
-C:\Users\endi7\Documents\Diplom\Diplom_3\src\main\java\yandex\stellarburgers\pageObject\LoginPageStellarBurgersSelenide.java
+C:\Users\endi7\Documents\Diplom\Diplom_3\src\main\java\yandex\stellarburgers\model\Client.java
+C:\Users\endi7\Documents\Diplom\Diplom_3\src\main\java\yandex\stellarburgers\pageobjects\AuthPage.java
+C:\Users\endi7\Documents\Diplom\Diplom_3\src\main\java\yandex\stellarburgers\pageobjects\MainPage.java
+C:\Users\endi7\Documents\Diplom\Diplom_3\src\main\java\yandex\stellarburgers\pageobjects\RegistrationPage.java
+C:\Users\endi7\Documents\Diplom\Diplom_3\src\main\java\yandex\stellarburgers\api\BaseClient.java
