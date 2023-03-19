@@ -4,7 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="77a8259b-a70f-4bab-b6ac-a55664273df1" name="Changes" comment="" />
+    <list default="true" id="77a8259b-a70f-4bab-b6ac-a55664273df1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Diplom_3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Diplom_3.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/AuthTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/AuthTests.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/MainTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/MainTests.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/RegistrationTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/RegistrationTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-AuthTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-AuthTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-MainTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-MainTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-RegistrationTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-RegistrationTest.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,7 +58,8 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/endi7/Documents/материалы для дипломного проекта/Diplome_3",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/endi7/Documents/Diplom/Diplom_3",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
