@@ -22,7 +22,7 @@ public class AuthTests extends BaseClient {
     private AuthPage authPage;
     private MainPage mainPage;
     private Client registrationCorrectData;
-    @Step("Initialization of test data")
+
     @Before
     public void createData(){
         registrationPage = page(RegistrationPage.class);
@@ -31,7 +31,7 @@ public class AuthTests extends BaseClient {
         registrationCorrectData = new Client(RandomStringUtils.randomAlphabetic(10) + "@yandex.ru", RandomStringUtils.randomAlphabetic(10), RandomStringUtils.randomAlphanumeric(10));
         BaseClient.createClient(registrationCorrectData);
     }
-    @Step("Deleting test data after tests")
+
     @After
     public void deleteClient() throws IOException {
         BaseClient.deleteClient(registrationCorrectData);

@@ -15,14 +15,14 @@ public class RegistrationTest extends BaseClient {
     private RegistrationPage registrationPage;
     private Client registrationCorrectData;
     private Client registrationInCorrectData;
-    @Step("Initialization of test data")
+
     @Before
     public void createData(){
         registrationPage = page(RegistrationPage.class);
         registrationCorrectData = new Client(RandomStringUtils.randomAlphabetic(10) + "@yandex.ru", RandomStringUtils.randomAlphabetic(10), RandomStringUtils.randomAlphanumeric(10));
         registrationInCorrectData = new Client(RandomStringUtils.randomAlphabetic(10) + "@yandex.ru", RandomStringUtils.randomAlphabetic(5), RandomStringUtils.randomAlphanumeric(5));
     }
-    @Step("Deleting test data after tests")
+
     @After
     public void deleteClient(){
         BaseClient.deleteClient(registrationCorrectData);
