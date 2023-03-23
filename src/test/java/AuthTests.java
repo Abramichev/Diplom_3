@@ -11,17 +11,17 @@ import yandex.stellarburgers.pageobjects.AuthPage;
 import yandex.stellarburgers.pageobjects.MainPage;
 import yandex.stellarburgers.pageobjects.RegistrationPage;
 
-import static com.codeborne.selenide.Selenide.close;
+import java.io.IOException;
+
 import static com.codeborne.selenide.Selenide.page;
+import static org.apache.commons.io.IOUtils.close;
 
 
 public class AuthTests extends BaseClient {
-
     private RegistrationPage registrationPage;
     private AuthPage authPage;
     private MainPage mainPage;
     private Client registrationCorrectData;
-
     @Step("Initialization of test data")
     @Before
     public void createData(){
@@ -31,14 +31,12 @@ public class AuthTests extends BaseClient {
         registrationCorrectData = new Client(RandomStringUtils.randomAlphabetic(10) + "@yandex.ru", RandomStringUtils.randomAlphabetic(10), RandomStringUtils.randomAlphanumeric(10));
         BaseClient.createClient(registrationCorrectData);
     }
-
     @Step("Deleting test data after tests")
     @After
-    public void deleteClient(){
+    public void deleteClient() throws IOException {
         BaseClient.deleteClient(registrationCorrectData);
         close();
     }
-
     @Step("User authentication verification")
     @Test
     @DisplayName("Auth user from registration page")
@@ -51,7 +49,6 @@ public class AuthTests extends BaseClient {
         authPage.clickSignInButton();
         authPage.checkAuth();
     }
-
     @Step("User authentication verification")
     @Test
     @DisplayName("Auth user from main page")
@@ -64,7 +61,6 @@ public class AuthTests extends BaseClient {
         authPage.clickSignInButton();
         authPage.checkAuth();
     }
-
     @Step("User authentication verification")
     @Test
     @DisplayName("Auth user from personal account")
@@ -77,7 +73,6 @@ public class AuthTests extends BaseClient {
         authPage.clickSignInButton();
         authPage.checkAuth();
     }
-
     @Step("User authentication verification")
     @Test
     @DisplayName("Auth user from forgot password page")

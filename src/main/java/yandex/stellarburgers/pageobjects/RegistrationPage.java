@@ -9,7 +9,6 @@ import org.openqa.selenium.support.How;
 
 public class RegistrationPage {
 
-
     @FindBy(how = How.XPATH, using = "//*[text()='Имя']/following-sibling::*")
     private SelenideElement nameInput;
 
