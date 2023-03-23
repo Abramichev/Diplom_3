@@ -22,7 +22,6 @@ public class MainTests extends BaseClient {
     private AuthPage authPage;
     private MainPage mainPage;
     private Client registrationCorrectData;
-
     @Step("Initialization of test data")
     @Before
     public void createData(){
@@ -32,14 +31,12 @@ public class MainTests extends BaseClient {
         registrationCorrectData = new Client(RandomStringUtils.randomAlphabetic(10) + "@yandex.ru", RandomStringUtils.randomAlphabetic(10), RandomStringUtils.randomAlphanumeric(10));
         BaseClient.createClient(registrationCorrectData);
     }
-
     @Step("Deleting test data after tests")
     @After
     public void deleteClient(){
         BaseClient.deleteClient(registrationCorrectData);
         close();
     }
-
     @Step("Checking the home page")
     @Test
     @DisplayName("Click personal account button")
@@ -98,7 +95,6 @@ public class MainTests extends BaseClient {
         mainPage.clickLogoutButton();
         mainPage.checkLogout();
     }
-
     @Step("Checking the home page")
     @Test
     @DisplayName("Check Bun button")
@@ -109,7 +105,6 @@ public class MainTests extends BaseClient {
         mainPage.clickBunButton();
         mainPage.checkBun();
     }
-
     @Step("Checking the home page")
     @Test
     @DisplayName("Check Sauce button")
@@ -119,7 +114,6 @@ public class MainTests extends BaseClient {
         mainPage.clickSauceButton();
         mainPage.checkSauce();
     }
-
     @Step("Checking the home page")
     @Test
     @DisplayName("Check Filling button")
