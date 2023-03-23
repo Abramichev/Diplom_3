@@ -28,7 +28,6 @@ public class RegistrationTest extends BaseClient {
         BaseClient.deleteClient(registrationCorrectData);
         close();
     }
-@Step("Checking Registration")
     @Test
     @DisplayName("Registration new user with correct password")
     @Description("Should create new user")
@@ -40,7 +39,7 @@ public class RegistrationTest extends BaseClient {
         registrationPage.clickRegisterButton();
         registrationPage.checkRegistration();
     }
-    @Step("Checking Registration")
+
     @Test
     @DisplayName("Registration new user with incorrect password (less 6 symbols)")
     @Description("Should be error with short password")

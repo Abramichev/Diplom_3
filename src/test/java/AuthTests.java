@@ -37,7 +37,7 @@ public class AuthTests extends BaseClient {
         BaseClient.deleteClient(registrationCorrectData);
         close();
     }
-    @Step("User authentication verification")
+
     @Test
     @DisplayName("Auth user from registration page")
     @Description("Should auth user from registration page")
@@ -49,7 +49,7 @@ public class AuthTests extends BaseClient {
         authPage.clickSignInButton();
         authPage.checkAuth();
     }
-    @Step("User authentication verification")
+
     @Test
     @DisplayName("Auth user from main page")
     @Description("Should auth user from main page")
@@ -61,7 +61,7 @@ public class AuthTests extends BaseClient {
         authPage.clickSignInButton();
         authPage.checkAuth();
     }
-    @Step("User authentication verification")
+
     @Test
     @DisplayName("Auth user from personal account")
     @Description("Should auth user from personal account")
@@ -73,7 +73,7 @@ public class AuthTests extends BaseClient {
         authPage.clickSignInButton();
         authPage.checkAuth();
     }
-    @Step("User authentication verification")
+
     @Test
     @DisplayName("Auth user from forgot password page")
     @Description("Should auth user from forgot password page")

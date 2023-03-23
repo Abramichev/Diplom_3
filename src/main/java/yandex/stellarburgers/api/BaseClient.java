@@ -1,4 +1,5 @@
 package yandex.stellarburgers.api;
+import io.qameta.allure.Step;
 import io.restassured.response.Response;
 import yandex.stellarburgers.model.Client;
 
@@ -11,6 +12,7 @@ public class BaseClient {
     protected static final String createClientAPI = BaseURL +"/api/auth/register";
     protected static final String loginAPI = BaseURL +"/login";
 
+    @Step("delete client")
     public static Response deleteClient(Client client) {
         return given()
                 .header("Content-type", "application/json")
@@ -18,6 +20,7 @@ public class BaseClient {
                 .delete(deleteClientAPI);
     }
 
+    @Step("create client")
     public static Response createClient(Client client) {
         return given()
                 .header("Content-type", "application/json")

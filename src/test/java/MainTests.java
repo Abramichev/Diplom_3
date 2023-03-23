@@ -37,7 +37,7 @@ public class MainTests extends BaseClient {
         BaseClient.deleteClient(registrationCorrectData);
         close();
     }
-    @Step("Checking the home page")
+
     @Test
     @DisplayName("Click personal account button")
     @Description("Should redirect to personal account")
@@ -51,7 +51,7 @@ public class MainTests extends BaseClient {
         mainPage.checkPersonalAccount();
     }
 
-    @Step("Checking the home page")
+
     @Test
     @DisplayName("Constructor from personal account")
     @Description("Should be able to click Constructor-button from personal account")
@@ -66,7 +66,6 @@ public class MainTests extends BaseClient {
         mainPage.checkMainPage();
     }
 
-    @Step("Checking the home page")
     @Test
     @DisplayName("Logo from personal account")
     @Description("Should be able to click Logo-button from personal account")
@@ -81,7 +80,6 @@ public class MainTests extends BaseClient {
         mainPage.checkMainPage();
     }
 
-    @Step("Checking the home page")
     @Test
     @DisplayName("Check logout button")
     @Description("Should be able to logout from personal account")
@@ -95,7 +93,6 @@ public class MainTests extends BaseClient {
         mainPage.clickLogoutButton();
         mainPage.checkLogout();
     }
-    @Step("Checking the home page")
     @Test
     @DisplayName("Check Bun button")
     @Description("Should scroll to bun-menu")
@@ -105,7 +102,6 @@ public class MainTests extends BaseClient {
         mainPage.clickBunButton();
         mainPage.checkBun();
     }
-    @Step("Checking the home page")
     @Test
     @DisplayName("Check Sauce button")
     @Description("Should scroll to Sauce-menu")
@@ -114,7 +110,7 @@ public class MainTests extends BaseClient {
         mainPage.clickSauceButton();
         mainPage.checkSauce();
     }
-    @Step("Checking the home page")
+
     @Test
     @DisplayName("Check Filling button")
     @Description("Should scroll to Filling-menu")
